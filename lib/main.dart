@@ -17,7 +17,7 @@ class Issa extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'The academy poker',
+      title: 'Flutter Code',
       home: SplashPage(),
       routes: {
         Constants.launcherRoute: (context) => LauncherPage(),
